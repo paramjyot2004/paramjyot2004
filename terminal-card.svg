@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" width="100%" height="100%">
+  <style>
+    .bg { fill: #0d1117; rx: 10px; }
+    .header { fill: #161b22; rx: 10px 10px 0 0; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .term-title { font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }
+    .ascii-text { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #3fb950; font-weight: bold; white-space: pre; }
+    .prompt { font-family: monospace; font-size: 12px; fill: #58a6ff; }
+    .cursor { fill: #c9d1d9; }
+  </style>
+  <rect width="400" height="390" class="bg" stroke="#30363d" stroke-width="1"/>
+  <rect width="400" height="30" class="header"/>
+  <circle cx="20" cy="15" r="5" class="dot-red"/>
+  <circle cx="35" cy="15" r="5" class="dot-yellow"/>
+  <circle cx="50" cy="15" r="5" class="dot-green"/>
+  <text x="200" y="19" class="term-title">bash - paramjyot2004@profile</text>
+  
+  <g>
+    
+        <text x="25" y="55" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.0s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="68" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.08s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="81" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.16s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="94" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.24s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="107" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.32s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="120" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.4s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="133" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.48s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="146" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.56s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="159" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.64s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="172" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.72s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="185" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.8s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="198" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.88s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="211" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.96s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="224" class="ascii-text" opacity="0">
+            %%%#############%%%%%%#############%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.04s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="237" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.12s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="250" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="263" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.28s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="276" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.36s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="289" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.44s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="302" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.52s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="315" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="328" class="ascii-text" opacity="0">
+            %%%%%%%%%####################%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.68s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="341" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.76s" fill="freeze" />
+        </text>
+        
+        <text x="25" y="354" class="ascii-text" opacity="0">
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.84s" fill="freeze" />
+        </text>
+        
+  </g>
+
+  <!-- Footer Typewriter -->
+  <g transform="translate(25, 370)">
+    <text class="prompt">$ whoami</text>
+    <rect x="75" y="-10" width="8" height="12" class="cursor">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
