@@ -1,7 +1,5 @@
 
 
-Here is your GitHub profile written in **pure Markdown format** (clean syntax without HTML `<div>`, `<table>`, or `<img>` tags):
-
 ```markdown
 ![Paramjyot Kaur Banner](https://capsule-render.vercel.app/api?type=waving&color=101425&height=180&section=header&text=PARAMJYOT%20KAUR&fontSize=38&fontColor=6C7CE7&fontAlignY=42)
 
