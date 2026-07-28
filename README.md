@@ -83,7 +83,7 @@ A predictive model estimating earthquake likelihood from seismic data.
 ![LeetCode Stats](https://leetcard.jacoblin.cool/paramjyot2004?theme=dark&font=Poppins&ext=heatmap)
 
 ---
-
+ 
 ## 🐍 Contribution Animation
 
 ![Snake Animation](https://raw.githubusercontent.com/paramjyot2004/paramjyot2004/output/github-contribution-grid-snake-dark.svg)
