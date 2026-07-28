@@ -6,7 +6,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=34&duration=3000&pause=1000&color=6C7CE7&center=true&vCenter=true&width=650&lines=Hi+👋;I'm+Paramjyot+Kaur)](https://github.com/paramjyot2004)
 
-### Building software that solves real-world problems.
+### Full Stack Developer • AI/ML Enthusiast
 
 <br>
 
@@ -34,11 +34,11 @@
 
 🎓 **B.Tech Computer Science (AI/ML)** @ VIT Bhopal University
 
-💻 Passionate about building scalable web applications and intelligent software.
+💻 I enjoy building modern web applications and intelligent software that solve real-world problems.
 
-🚀 Interested in Full Stack Development, Machine Learning and Cloud Technologies.
+🚀 Interested in Full Stack Development, Artificial Intelligence, and Cloud Technologies.
 
-🌱 Currently improving Data Structures & Algorithms while building production-ready projects.
+🌱 Currently improving Data Structures & Algorithms while building production-ready applications.
 
 ---
 
@@ -47,7 +47,8 @@
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,mysql"/>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
 ### Frontend
@@ -65,16 +66,22 @@
 ### Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb"/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
 
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
 </p>
+
+
 
 ### AI / ML
 
 <p>
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
 
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
 
@@ -87,9 +94,18 @@
 ### Cloud & Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,githubactions"/>
-</p>
 
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+
+</p>
 ---
 
 # 🚀 Featured Projects
@@ -103,7 +119,7 @@
 
 ### 🏆 College Discovery Platform
 
-Modern platform inspired by **Collegedunia** and **Careers360** for discovering, comparing and saving colleges.
+Modern college discovery platform inspired by Collegedunia and Careers360 with authentication, advanced filtering, and college comparison features.
 
 <br>
 
@@ -129,7 +145,7 @@ Modern platform inspired by **Collegedunia** and **Careers360** for discovering,
 
 ### 🌿 Vibrant Workshop Hub
 
-Workshop discovery platform connecting learners with practical workshops.
+Interactive platform for discovering and managing educational workshops with role-based access and scheduling.
 
 <br>
 
@@ -157,7 +173,7 @@ Workshop discovery platform connecting learners with practical workshops.
 
 ### 🧪 Chemical Equipment Visualizer
 
-Interactive visualization platform for laboratory equipment using modern web technologies.
+Desktop application for visualizing and analyzing chemical equipment using an interactive interface.
 
 <br>
 
@@ -183,7 +199,7 @@ Interactive visualization platform for laboratory equipment using modern web tec
 
 ### 🌍 Earthquake Prediction System
 
-Deep learning model trained on global seismic data for earthquake magnitude prediction.
+Deep learning model for predicting earthquake occurrence using historical seismic datasets.
 
 <br>
 
@@ -239,7 +255,7 @@ Deep learning model trained on global seismic data for earthquake magnitude pred
 
 ---
 
-# 🧩 DSA
+# 🧩 DSA & Problem Solving
 
 <div align="center">
 
@@ -251,10 +267,10 @@ Deep learning model trained on global seismic data for earthquake magnitude pred
 
 <br><br>
 
-📚 **Currently practicing Data Structures & Algorithms and solving problems consistently on LeetCode.**
+Strengthening problem-solving skills by consistently practicing Data Structures & Algorithms on LeetCode.
 
 </div>
-
+</div>
 ---
 
 # 🐍 Contribution Snake
@@ -310,10 +326,10 @@ src="https://raw.githubusercontent.com/paramjyot2004/paramjyot2004/output/github
 
 <div align="center">
 
-### ⭐ Thanks for visiting my profile!
+<div align="center">
 
-If you like my work, consider ⭐ starring my repositories or connecting with me on LinkedIn.
+⭐ Thanks for visiting my profile.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:101425,100:6C7CE7&height=120&section=footer"/>
+Feel free to connect, collaborate, or explore my repositories.
 
 </div>
