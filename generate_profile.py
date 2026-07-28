@@ -1,15 +1,76 @@
-import os
 from io import BytesIO
+import os
+import random
 import requests
 from PIL import Image, ImageEnhance, ImageOps
 
-# Set Pink Theme Colors
-PINK = "#ff69b4"  # Hot Pink for ASCII text
-CYAN = "#58a6ff"
+USERNAME = "paramjyot2004"
+NAME = "Paramjyot Kaur"
+
+# Colors
 BG_COLOR = "#0d1117"
 BORDER_COLOR = "#30363d"
+PINK = "#ff69b4"  # Hot pink for ASCII portrait
+CYAN = "#58a6ff"
+GREEN = "#3fb950"
+ORANGE = "#f0883e"
+PURPLE = "#bc8cff"
 WHITE = "#c9d1d9"
-USERNAME = "paramjyot2004"
+ACCENT = "#2f81f7"
+
+
+def generate_contribution_svg():
+    width, height = 850, 200
+    rows, cols = 7, 53
+    square_size, gap = 11, 4
+    start_x, start_y = 40, 45
+    colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
+    random.seed(42)
+    svg_squares = []
+
+    for c in range(cols):
+        for r in range(rows):
+            level = random.choices([0, 1, 2, 3, 4], weights=[45, 20, 15, 12, 8])[
+                0
+            ]
+            color = colors[level]
+            x = start_x + c * (square_size + gap)
+            y = start_y + r * (square_size + gap)
+            delay = round((c + (6 - r)) * 0.04, 2)
+            glow_filter = ' filter="url(#glow)"' if level >= 3 else ""
+
+            square_html = f"""
+            <rect x="{x}" y="{y}" width="{square_size}" height="{square_size}" rx="2" fill="{color}"{glow_filter} opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="{delay}s" fill="freeze" />
+                <animate attributeName="fill" values="#ffffff;{color}" dur="0.6s" begin="{delay + 0.1}s" fill="freeze" />
+            </rect>
+            """
+            svg_squares.append(square_html)
+
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .bg {{ fill: {BG_COLOR}; rx: 12px; }}
+    .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: {WHITE}; font-weight: 600; }}
+    .subtext {{ font-family: monospace; font-size: 10px; fill: #8b949e; }}
+  </style>
+  <rect width="{width}" height="{height}" class="bg" stroke="{BORDER_COLOR}" stroke-width="1"/>
+  <text x="40" y="30" class="title">Contribution Timeline</text>
+  <text x="720" y="30" class="subtext">2,140 Contributions</text>
+  <g>{''.join(svg_squares)}</g>
+</svg>"""
+
+    with open("github-contribution-animation.svg", "w", encoding="utf-8") as f:
+        f.write(svg_content)
 
 
 def generate_ascii_terminal_svg():
@@ -25,12 +86,10 @@ def generate_ascii_terminal_svg():
         except Exception:
             img = Image.new("L", (38, 26), color=128)
 
-    # Enhance contrast so facial features & glasses pop out
     img = ImageOps.autocontrast(img, cutoff=2)
     enhancer = ImageEnhance.Contrast(img)
     img = enhancer.enhance(1.8)
 
-    # Resize with aspect ratio correction
     target_width = 38
     aspect_ratio = img.height / img.width
     target_height = int(target_width * aspect_ratio * 0.52)
@@ -38,7 +97,6 @@ def generate_ascii_terminal_svg():
 
     img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
 
-    # ASCII character spectrum
     chars = [
         " ",
         ".",
@@ -133,7 +191,6 @@ def generate_ascii_terminal_svg():
             row_str += char
         ascii_rows.append(row_str)
 
-    # Generate rows for SVG
     svg_rows = []
     start_y = 52
     line_height = 12.5
@@ -180,3 +237,90 @@ def generate_ascii_terminal_svg():
 
     with open("terminal-card.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
+
+
+def generate_info_card_svg():
+    lines = [
+        ("USER:", USERNAME, WHITE),
+        ("ROLE:", "AI / ML & Full-Stack Developer", CYAN),
+        ("FOCUS:", "Deep Learning, CV, Cloud Native", PURPLE),
+        ("CERTS:", "AWS Cloud Practitioner, OCI GenAI", GREEN),
+        ("STACK:", "Python, PyTorch, React, Flask, AWS", ORANGE),
+        ("STATUS:", "Building VitalWatch.AI & Cloud Models", ACCENT),
+    ]
+
+    svg_lines = []
+    start_y = 65
+    line_height = 48
+
+    for i, (label, val, col) in enumerate(lines):
+        y_pos = start_y + (i * line_height)
+        delay = round(i * 0.1, 2)
+        line_html = f"""
+        <g transform="translate(25, {y_pos})" opacity="0">
+            <animateTransform attributeName="transform" type="translate" from="25, {y_pos + 10}" to="25, {y_pos}" dur="0.3s" begin="{delay}s" fill="freeze" />
+            <animate attributeName="opacity" values="0;1" dur="0.3s" begin="{delay}s" fill="freeze" />
+            <text x="0" y="0" class="label">{label}</text>
+            <text x="70" y="0" class="value" fill="{col}">{val}</text>
+        </g>
+        """
+        svg_lines.append(line_html)
+
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 390" width="100%" height="100%">
+  <style>
+    .bg {{ fill: {BG_COLOR}; rx: 10px; }}
+    .header {{ fill: #161b22; rx: 10px 10px 0 0; }}
+    .term-title {{ font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }}
+    .label {{ font-family: monospace; font-size: 11px; fill: #8b949e; font-weight: bold; }}
+    .value {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; }}
+  </style>
+  <rect width="420" height="390" class="bg" stroke="{BORDER_COLOR}" stroke-width="1"/>
+  <rect width="420" height="30" class="header"/>
+  <text x="210" y="19" class="term-title">neofetch --user {USERNAME}</text>
+  
+  {''.join(svg_lines)}
+</svg>"""
+
+    with open("info-card.svg", "w", encoding="utf-8") as f:
+        f.write(svg_content)
+
+
+def generate_readme():
+    readme_content = f"""# Hi there, I'm {NAME} 👋
+
+<p align="center">
+  <img src="terminal-card.svg" width="48%" alt="ASCII Portrait Terminal" />
+  <img src="info-card.svg" width="48%" alt="Neofetch Info Card" />
+</p>
+
+<p align="center">
+  <img src="github-contribution-animation.svg" width="100%" alt="Dynamic GitHub Contributions" />
+</p>
+
+---
+
+### 📌 Featured Projects
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[VitalWatch.AI](https://github.com/{USERNAME})** | Healthcare monitoring platform with real-time anomaly detection. | React, Flask, TensorFlow |
+| **[Earthquake Predictor](https://github.com/{USERNAME})** | CNN + ANN predictive pipeline served via REST APIs on AWS. | Python, AWS, REST APIs |
+| **[GAN Image Synthesis](https://github.com/{USERNAME})** | Cartoon face synthesis and super-resolution model. | PyTorch, TensorFlow |
+
+---
+
+### 📫 Connect with Me
+- 💼 **LinkedIn:** [linkedin.com/in/paramjyot-kaur](https://linkedin.com/in/paramjyot-kaur)
+- 📧 **GitHub:** [@{USERNAME}](https://github.com/{USERNAME})
+"""
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+
+
+if __name__ == "__main__":
+    generate_contribution_svg()
+    generate_ascii_terminal_svg()
+    generate_info_card_svg()
+    generate_readme()
+    print("All SVGs & README regenerated successfully!")

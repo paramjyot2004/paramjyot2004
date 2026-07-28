@@ -6,7 +6,7 @@
     .dot-yellow { fill: #ffbd2e; }
     .dot-green { fill: #27c93f; }
     .term-title { font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }
-    .ascii-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #3fb950; font-weight: bold; xml:space: preserve; }
+    .ascii-text { font-family: 'Courier New', Courier, monospace; font-size: 10.5px; fill: #ff69b4; font-weight: bold; xml:space: preserve; }
     .prompt { font-family: monospace; font-size: 12px; fill: #58a6ff; }
     .cursor { fill: #c9d1d9; }
   </style>
@@ -18,118 +18,108 @@
   <text x="200" y="19" class="term-title">bash - paramjyot2004@profile</text>
   
   <g>
-        <text x="25" y="55" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+        <text x="20" y="52.0" class="ascii-text" opacity="0">
+            $$$$$$$$$$$$$$@B$$$$$$@B@$$$$$$$$$$$$$
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.0s" fill="freeze" />
         </text>
         
-        <text x="25" y="69" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.08s" fill="freeze" />
+        <text x="20" y="64.5" class="ascii-text" opacity="0">
+            $$$$$$$$$$$$$@$$@M*dk#$$$@$$$$$$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.05s" fill="freeze" />
         </text>
         
-        <text x="25" y="83" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.16s" fill="freeze" />
+        <text x="20" y="77.0" class="ascii-text" opacity="0">
+            $$$$$$$$$$$$@$Wfl.   ^&lt;uM$@$$$$$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.1s" fill="freeze" />
         </text>
         
-        <text x="25" y="97" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.24s" fill="freeze" />
+        <text x="20" y="89.5" class="ascii-text" opacity="0">
+            $$$$$$$$$$$@@%&lt; &#39;!~I&#39;   :Q$B$$$$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.15s" fill="freeze" />
         </text>
         
-        <text x="25" y="111" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.32s" fill="freeze" />
+        <text x="20" y="102.0" class="ascii-text" opacity="0">
+            $$$$$$$$$$$@$( (Od#*mn?^  X$@$$$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze" />
         </text>
         
-        <text x="25" y="125" class="ascii-text" opacity="0">
-            ,,,:::::::::::::::::::::::::::::,,,
+        <text x="20" y="114.5" class="ascii-text" opacity="0">
+            $$$$$$$$$$@$d ;Xw@&amp;UxUpu.],L$@$$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.25s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="127.0" class="ascii-text" opacity="0">
+            $$$$$$$$$$@$\.;-{OwzxXLw(\l:B@@$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.3s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="139.5" class="ascii-text" opacity="0">
+            $$$$$$$$$@$&amp;,`!UOYqa&amp;#adCU&gt; O@@$$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.35s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="152.0" class="ascii-text" opacity="0">
+            $$$$$$$$$B@Q  ^v*JrvUbWo(Ii _$@$$$$$$$
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.4s" fill="freeze" />
         </text>
         
-        <text x="25" y="139" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.48s" fill="freeze" />
+        <text x="20" y="164.5" class="ascii-text" opacity="0">
+            $$$$$$$$$B$-   ;)cvZ#%dn.    p$@$$$$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.45s" fill="freeze" />
         </text>
         
-        <text x="25" y="153" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.56s" fill="freeze" />
+        <text x="20" y="177.0" class="ascii-text" opacity="0">
+            $$$$$$$@B$J      &quot;UahkZ1     ?$B@@@$$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.5s" fill="freeze" />
         </text>
         
-        <text x="25" y="167" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.64s" fill="freeze" />
+        <text x="20" y="189.5" class="ascii-text" opacity="0">
+            $$$$$@@$$p`     . j#M%&amp;r     .k$$$$@$$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.55s" fill="freeze" />
         </text>
         
-        <text x="25" y="181" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.72s" fill="freeze" />
+        <text x="20" y="202.0" class="ascii-text" opacity="0">
+            $$$$$$$hx,        -k%@@ZI     +OohW$@$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.6s" fill="freeze" />
         </text>
         
-        <text x="25" y="195" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
+        <text x="20" y="214.5" class="ascii-text" opacity="0">
+            $$$@@%t(&lt;        &lt;xWB%BML^     l/IlQ$@
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.65s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="227.0" class="ascii-text" opacity="0">
+            $$$@@c-_+.     `?Xb@$@B%Q`      ]f[_k$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.7s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="239.5" class="ascii-text" opacity="0">
+            $$@$*Ufi,      ifh$$@@@$v       .nulJ$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.75s" fill="freeze" />
+        </text>
+        
+        <text x="20" y="252.0" class="ascii-text" opacity="0">
+            $$@$q[!i&#39;     ^!+c*W$$$$ul:     `|/fJ@
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.8s" fill="freeze" />
         </text>
         
-        <text x="25" y="209" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.88s" fill="freeze" />
+        <text x="20" y="264.5" class="ascii-text" opacity="0">
+            $$@$UI&lt;+      &#39;&gt;+{crQ#pz](}:     &quot;-jc@
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.85s" fill="freeze" />
         </text>
         
-        <text x="25" y="223" class="ascii-text" opacity="0">
-            ,,,::::::::::::,,,,,::::::::::::,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.96s" fill="freeze" />
+        <text x="20" y="277.0" class="ascii-text" opacity="0">
+            $$$$],&lt;:      Ii)\v|-X]jfmv;.    &#39;&lt;}0$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.9s" fill="freeze" />
         </text>
         
-        <text x="25" y="237" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.04s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="251" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.12s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="265" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="279" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.28s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="293" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.36s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="307" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.44s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="321" class="ascii-text" opacity="0">
-            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.52s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="335" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="349" class="ascii-text" opacity="0">
-            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.68s" fill="freeze" />
+        <text x="20" y="289.5" class="ascii-text" opacity="0">
+            $$$@)?i^.  ` :ifL1\)!1u/_Yc:&#39; .  &#39;+;C$
+            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.95s" fill="freeze" />
         </text>
         </g>
 
-  <g transform="translate(25, 370)">
+  <g transform="translate(20, 370)">
     <text class="prompt">$ whoami</text>
     <rect x="75" y="-10" width="8" height="12" class="cursor">
       <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
