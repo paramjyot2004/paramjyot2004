@@ -1,22 +1,13 @@
 # Hi there, I'm Paramjyot Kaur 👋
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="48%" valign="top">
-      <img src="./terminal-card.svg" width="100%" alt="ASCII Portrait Terminal" />
-    </td>
-    <td width="4%"></td>
-    <td width="48%" valign="top">
-      <img src="./info-card.svg" width="100%" alt="Neofetch Info Card" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="terminal-card.svg" width="48%" alt="ASCII Portrait Terminal" />
+  <img src="info-card.svg" width="48%" alt="Neofetch Info Card" />
+</p>
 
-<br />
-
-<div align="center">
-  <img src="./github-contribution-animation.svg" width="100%" alt="Dynamic GitHub Contributions" />
-</div>
+<p align="center">
+  <img src="github-contribution-animation.svg" width="100%" alt="Dynamic GitHub Contributions" />
+</p>
 
 ---
 
@@ -31,5 +22,5 @@
 ---
 
 ### 📫 Connect with Me
-- 💼 **LinkedIn:** [linkedin.com/in/paramjyot-kaur](https://linkedin.com/in/)
+- 💼 **LinkedIn:** [linkedin.com/in/paramjyot-kaur](https://linkedin.com/in/paramjyot-kaur)
 - 📧 **GitHub:** [@paramjyot2004](https://github.com/paramjyot2004)

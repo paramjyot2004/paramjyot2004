@@ -6,7 +6,7 @@
     .dot-yellow { fill: #ffbd2e; }
     .dot-green { fill: #27c93f; }
     .term-title { font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }
-    .ascii-text { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #3fb950; font-weight: bold; white-space: pre; }
+    .ascii-text { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #3fb950; font-weight: bold; xml:space: preserve; }
     .prompt { font-family: monospace; font-size: 12px; fill: #58a6ff; }
     .cursor { fill: #c9d1d9; }
   </style>
@@ -18,130 +18,117 @@
   <text x="200" y="19" class="term-title">bash - paramjyot2004@profile</text>
   
   <g>
-    
         <text x="25" y="55" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.0s" fill="freeze" />
         </text>
         
-        <text x="25" y="68" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <text x="25" y="69" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.08s" fill="freeze" />
         </text>
         
-        <text x="25" y="81" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="83" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.16s" fill="freeze" />
         </text>
         
-        <text x="25" y="94" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="97" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.24s" fill="freeze" />
         </text>
         
-        <text x="25" y="107" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="111" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.32s" fill="freeze" />
         </text>
         
-        <text x="25" y="120" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="125" class="ascii-text" opacity="0">
+            ,,,:::::::::::::::::::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.4s" fill="freeze" />
         </text>
         
-        <text x="25" y="133" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="139" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.48s" fill="freeze" />
         </text>
         
-        <text x="25" y="146" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="153" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.56s" fill="freeze" />
         </text>
         
-        <text x="25" y="159" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="167" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.64s" fill="freeze" />
         </text>
         
-        <text x="25" y="172" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="181" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.72s" fill="freeze" />
         </text>
         
-        <text x="25" y="185" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="195" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.8s" fill="freeze" />
         </text>
         
-        <text x="25" y="198" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="209" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.88s" fill="freeze" />
         </text>
         
-        <text x="25" y="211" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="223" class="ascii-text" opacity="0">
+            ,,,::::::::::::,,,,,::::::::::::,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.96s" fill="freeze" />
         </text>
         
-        <text x="25" y="224" class="ascii-text" opacity="0">
-            %%%#############%%%%%%#############%%%
+        <text x="25" y="237" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.04s" fill="freeze" />
         </text>
         
-        <text x="25" y="237" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <text x="25" y="251" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.12s" fill="freeze" />
         </text>
         
-        <text x="25" y="250" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <text x="25" y="265" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze" />
         </text>
         
-        <text x="25" y="263" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <text x="25" y="279" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.28s" fill="freeze" />
         </text>
         
-        <text x="25" y="276" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <text x="25" y="293" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.36s" fill="freeze" />
         </text>
         
-        <text x="25" y="289" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="307" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.44s" fill="freeze" />
         </text>
         
-        <text x="25" y="302" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="321" class="ascii-text" opacity="0">
+            ,,,,,,,,,:::::::::::::::::,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.52s" fill="freeze" />
         </text>
         
-        <text x="25" y="315" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="335" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze" />
         </text>
         
-        <text x="25" y="328" class="ascii-text" opacity="0">
-            %%%%%%%%%####################%%%%%%%%%
+        <text x="25" y="349" class="ascii-text" opacity="0">
+            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.68s" fill="freeze" />
         </text>
-        
-        <text x="25" y="341" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.76s" fill="freeze" />
-        </text>
-        
-        <text x="25" y="354" class="ascii-text" opacity="0">
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.84s" fill="freeze" />
-        </text>
-        
-  </g>
+        </g>
 
-  <!-- Footer Typewriter -->
   <g transform="translate(25, 370)">
     <text class="prompt">$ whoami</text>
     <rect x="75" y="-10" width="8" height="12" class="cursor">

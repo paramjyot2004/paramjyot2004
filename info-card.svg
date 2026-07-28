@@ -3,8 +3,8 @@
     .bg { fill: #0d1117; rx: 10px; }
     .header { fill: #161b22; rx: 10px 10px 0 0; }
     .term-title { font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }
-    .label { font-family: monospace; font-size: 12px; fill: #8b949e; font-weight: bold; }
-    .value { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; }
+    .label { font-family: monospace; font-size: 11px; fill: #8b949e; font-weight: bold; }
+    .value { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; }
   </style>
   <rect width="420" height="390" class="bg" stroke="#30363d" stroke-width="1"/>
   <rect width="420" height="30" class="header"/>
@@ -15,42 +15,42 @@
             <animateTransform attributeName="transform" type="translate" from="25, 75" to="25, 65" dur="0.3s" begin="0.0s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.0s" fill="freeze" />
             <text x="0" y="0" class="label">USER:</text>
-            <text x="80" y="0" class="value" fill="#c9d1d9">paramjyot2004</text>
+            <text x="70" y="0" class="value" fill="#c9d1d9">paramjyot2004</text>
         </g>
         
         <g transform="translate(25, 113)" opacity="0">
             <animateTransform attributeName="transform" type="translate" from="25, 123" to="25, 113" dur="0.3s" begin="0.1s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.1s" fill="freeze" />
             <text x="0" y="0" class="label">ROLE:</text>
-            <text x="80" y="0" class="value" fill="#58a6ff">AI / ML & Full-Stack Developer</text>
+            <text x="70" y="0" class="value" fill="#58a6ff">AI / ML & Full-Stack Developer</text>
         </g>
         
         <g transform="translate(25, 161)" opacity="0">
             <animateTransform attributeName="transform" type="translate" from="25, 171" to="25, 161" dur="0.3s" begin="0.2s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.2s" fill="freeze" />
             <text x="0" y="0" class="label">FOCUS:</text>
-            <text x="80" y="0" class="value" fill="#bc8cff">Deep Learning, CV, Cloud Native</text>
+            <text x="70" y="0" class="value" fill="#bc8cff">Deep Learning, CV, Cloud Native</text>
         </g>
         
         <g transform="translate(25, 209)" opacity="0">
             <animateTransform attributeName="transform" type="translate" from="25, 219" to="25, 209" dur="0.3s" begin="0.3s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.3s" fill="freeze" />
             <text x="0" y="0" class="label">CERTS:</text>
-            <text x="80" y="0" class="value" fill="#3fb950">AWS Cloud Practitioner, OCI GenAI</text>
+            <text x="70" y="0" class="value" fill="#3fb950">AWS Cloud Practitioner, OCI GenAI</text>
         </g>
         
         <g transform="translate(25, 257)" opacity="0">
             <animateTransform attributeName="transform" type="translate" from="25, 267" to="25, 257" dur="0.3s" begin="0.4s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.4s" fill="freeze" />
             <text x="0" y="0" class="label">STACK:</text>
-            <text x="80" y="0" class="value" fill="#f0883e">Python, PyTorch, React, Flask, AWS</text>
+            <text x="70" y="0" class="value" fill="#f0883e">Python, PyTorch, React, Flask, AWS</text>
         </g>
         
         <g transform="translate(25, 305)" opacity="0">
             <animateTransform attributeName="transform" type="translate" from="25, 315" to="25, 305" dur="0.3s" begin="0.5s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze" />
             <text x="0" y="0" class="label">STATUS:</text>
-            <text x="80" y="0" class="value" fill="#2f81f7">Building VitalWatch.AI & Cloud Models</text>
+            <text x="70" y="0" class="value" fill="#2f81f7">Building VitalWatch.AI & Cloud Models</text>
         </g>
         
 </svg>

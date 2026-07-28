@@ -1,16 +1,13 @@
-import math
-import random
 from io import BytesIO
+import random
 import requests
 from PIL import Image
 
 USERNAME = "paramjyot2004"
 NAME = "Paramjyot Kaur"
-TITLE = "AI & ML Engineer | Full-Stack Developer"
 
-# Color Palette (Dark Mode + Cyberpunk Accents)
+# Palette
 BG_COLOR = "#0d1117"
-PANEL_BG = "#161b22"
 BORDER_COLOR = "#30363d"
 CYAN = "#58a6ff"
 GREEN = "#3fb950"
@@ -21,34 +18,23 @@ ACCENT = "#2f81f7"
 
 
 def generate_contribution_svg():
-    width = 850
-    height = 200
-    rows = 7
-    cols = 53
-    square_size = 11
-    gap = 4
-    start_x = 40
-    start_y = 45
+    width, height = 850, 200
+    rows, cols = 7, 53
+    square_size, gap = 11, 4
+    start_x, start_y = 40, 45
+    colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
-    colors = [
-        "#161b22",
-        "#0e4429",
-        "#006d32",
-        "#26a641",
-        "#39d353",
-    ]  # 0 to 4 levels
-
-    random.seed(42)  # Consistent layout
-
+    random.seed(42)
     svg_squares = []
+
     for c in range(cols):
         for r in range(rows):
-            level = random.choices([0, 1, 2, 3, 4], weights=[45, 20, 15, 12, 8])[0]
+            level = random.choices([0, 1, 2, 3, 4], weights=[45, 20, 15, 12, 8])[
+                0
+            ]
             color = colors[level]
             x = start_x + c * (square_size + gap)
             y = start_y + r * (square_size + gap)
-
-            # Diagonal reveal delay calculation (bottom-left to top-right sweep)
             delay = round((c + (6 - r)) * 0.04, 2)
             glow_filter = ' filter="url(#glow)"' if level >= 3 else ""
 
@@ -72,15 +58,13 @@ def generate_contribution_svg():
   </defs>
   <style>
     .bg {{ fill: {BG_COLOR}; rx: 12px; }}
-    .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: {WHITE}; font-weight: 600; }}
+    .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: {WHITE}; font-weight: 600; }}
     .subtext {{ font-family: monospace; font-size: 10px; fill: #8b949e; }}
   </style>
   <rect width="{width}" height="{height}" class="bg" stroke="{BORDER_COLOR}" stroke-width="1"/>
   <text x="40" y="30" class="title">Contribution Timeline</text>
   <text x="720" y="30" class="subtext">2,140 Contributions</text>
-  <g>
-    {''.join(svg_squares)}
-  </g>
+  <g>{''.join(svg_squares)}</g>
 </svg>"""
 
     with open("github-contribution-animation.svg", "w", encoding="utf-8") as f:
@@ -93,34 +77,25 @@ def generate_ascii_terminal_svg():
         res = requests.get(url)
         img = Image.open(BytesIO(res.content)).convert("L")
     except Exception:
-        img = Image.new("L", (40, 40), color=128)
+        img = Image.new("L", (35, 22), color=128)
 
-    width = 38
-    height = 24
+    width, height = 35, 22
     img = img.resize((width, height))
 
-    chars = " .:-=+*#%@"
+    # Clean ASCII character map avoiding troublesome markup characters
+    chars = "@#S%?*+;:,."
     ascii_rows = []
     for y in range(height):
         row_str = ""
         for x in range(width):
             pixel = img.getpixel((x, y))
             char = chars[int((pixel / 255) * (len(chars) - 1))]
-            # Escape HTML special characters
-            if char == "<":
-                char = "&lt;"
-            elif char == ">":
-                char = "&gt;"
-            elif char == "&":
-                char = "&amp;"
-            elif char == " ":
-                char = "&#160;"
             row_str += char
         ascii_rows.append(row_str)
 
     svg_rows = []
     start_y = 55
-    line_height = 13
+    line_height = 14
 
     for i, row in enumerate(ascii_rows):
         y_pos = start_y + (i * line_height)
@@ -141,7 +116,7 @@ def generate_ascii_terminal_svg():
     .dot-yellow {{ fill: #ffbd2e; }}
     .dot-green {{ fill: #27c93f; }}
     .term-title {{ font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }}
-    .ascii-text {{ font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: {GREEN}; font-weight: bold; white-space: pre; }}
+    .ascii-text {{ font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: {GREEN}; font-weight: bold; xml:space: preserve; }}
     .prompt {{ font-family: monospace; font-size: 12px; fill: {CYAN}; }}
     .cursor {{ fill: {WHITE}; }}
   </style>
@@ -152,11 +127,8 @@ def generate_ascii_terminal_svg():
   <circle cx="50" cy="15" r="5" class="dot-green"/>
   <text x="200" y="19" class="term-title">bash - {USERNAME}@profile</text>
   
-  <g>
-    {''.join(svg_rows)}
-  </g>
+  <g>{''.join(svg_rows)}</g>
 
-  <!-- Footer Typewriter -->
   <g transform="translate(25, 370)">
     <text class="prompt">$ whoami</text>
     <rect x="75" y="-10" width="8" height="12" class="cursor">
@@ -191,7 +163,7 @@ def generate_info_card_svg():
             <animateTransform attributeName="transform" type="translate" from="25, {y_pos + 10}" to="25, {y_pos}" dur="0.3s" begin="{delay}s" fill="freeze" />
             <animate attributeName="opacity" values="0;1" dur="0.3s" begin="{delay}s" fill="freeze" />
             <text x="0" y="0" class="label">{label}</text>
-            <text x="80" y="0" class="value" fill="{col}">{val}</text>
+            <text x="70" y="0" class="value" fill="{col}">{val}</text>
         </g>
         """
         svg_lines.append(line_html)
@@ -201,8 +173,8 @@ def generate_info_card_svg():
     .bg {{ fill: {BG_COLOR}; rx: 10px; }}
     .header {{ fill: #161b22; rx: 10px 10px 0 0; }}
     .term-title {{ font-family: monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; }}
-    .label {{ font-family: monospace; font-size: 12px; fill: #8b949e; font-weight: bold; }}
-    .value {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; }}
+    .label {{ font-family: monospace; font-size: 11px; fill: #8b949e; font-weight: bold; }}
+    .value {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; }}
   </style>
   <rect width="420" height="390" class="bg" stroke="{BORDER_COLOR}" stroke-width="1"/>
   <rect width="420" height="30" class="header"/>
@@ -218,23 +190,14 @@ def generate_info_card_svg():
 def generate_readme():
     readme_content = f"""# Hi there, I'm {NAME} 👋
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="48%" valign="top">
-      <img src="./terminal-card.svg" width="100%" alt="ASCII Portrait Terminal" />
-    </td>
-    <td width="4%"></td>
-    <td width="48%" valign="top">
-      <img src="./info-card.svg" width="100%" alt="Neofetch Info Card" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="terminal-card.svg" width="48%" alt="ASCII Portrait Terminal" />
+  <img src="info-card.svg" width="48%" alt="Neofetch Info Card" />
+</p>
 
-<br />
-
-<div align="center">
-  <img src="./github-contribution-animation.svg" width="100%" alt="Dynamic GitHub Contributions" />
-</div>
+<p align="center">
+  <img src="github-contribution-animation.svg" width="100%" alt="Dynamic GitHub Contributions" />
+</p>
 
 ---
 
@@ -249,7 +212,7 @@ def generate_readme():
 ---
 
 ### 📫 Connect with Me
-- 💼 **LinkedIn:** [linkedin.com/in/paramjyot-kaur](https://linkedin.com/in/)
+- 💼 **LinkedIn:** [linkedin.com/in/paramjyot-kaur](https://linkedin.com/in/paramjyot-kaur)
 - 📧 **GitHub:** [@{USERNAME}](https://github.com/{USERNAME})
 """
 
@@ -258,9 +221,8 @@ def generate_readme():
 
 
 if __name__ == "__main__":
-    print("Generating SVGs and updating README.md...")
     generate_contribution_svg()
     generate_ascii_terminal_svg()
     generate_info_card_svg()
     generate_readme()
-    print("Done! All files created successfully.")
+    print("All SVGs & README regenerated successfully!")
