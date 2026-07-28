@@ -40,7 +40,6 @@
 
 🌱 Currently improving Data Structures & Algorithms while building production-ready applications.
 
----
 
 # 💻 Tech Stack
 
@@ -70,7 +69,6 @@
 
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
 </p>
-
 
 
 ### AI / ML
@@ -106,9 +104,10 @@
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
 
 </p>
----
+
 
 # 🚀 Featured Projects
+
 <div align="center">
 
 <table>
@@ -119,24 +118,29 @@
 
 ### 🏆 College Discovery Platform
 
-Modern college discovery platform inspired by Collegedunia and Careers360 with authentication, advanced filtering, and college comparison features.
+Modern platform inspired by **Collegedunia** and **Careers360** for discovering, comparing, and saving colleges.
+
+**✨ Highlights**
+
+- Secure Authentication
+- Smart Search & Filtering
+- College Comparison
+- Responsive UI
+
+**Built with**
+
+`React` • `TypeScript` • `TailwindCSS`
+
+`Node.js` • `Prisma` • `PostgreSQL`
 
 <br>
 
-**Tech**
-
-`React` `TypeScript` `TailwindCSS`
-
-`Node.js` `Prisma` `PostgreSQL`
-
-<br>
-
-<a href="YOUR_UNIPEDIA_GITHUB_LINK">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<a href="YOUR_COLLEGE_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="YOUR_UNIPEDIA_LIVE_LINK">
-<img src="https://img.shields.io/badge/Live Demo-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<a href="https://college-discovery-platform-zeta-beryl.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </td>
@@ -145,22 +149,25 @@ Modern college discovery platform inspired by Collegedunia and Careers360 with a
 
 ### 🌿 Vibrant Workshop Hub
 
-Interactive platform for discovering and managing educational workshops with role-based access and scheduling.
+Interactive platform for discovering and managing educational workshops.
 
-<br>
+**✨ Highlights**
 
-**Tech**
+- Role-based Access
+- Workshop Scheduling
+- Instructor Dashboard
+- Student Registration
 
-`React`
+**Built with**
 
-`Express.js`
+`React` • `Express.js`
 
 `PostgreSQL`
 
 <br>
 
-<a href="YOUR_WORKSHOP_GITHUB_LINK">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<a href="YOUR_WORKSHOP_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -173,24 +180,25 @@ Interactive platform for discovering and managing educational workshops with rol
 
 ### 🧪 Chemical Equipment Visualizer
 
-Desktop application for visualizing and analyzing chemical equipment using an interactive interface.
+Desktop application for visualizing and analyzing laboratory equipment through an interactive interface.
+
+**✨ Highlights**
+
+- Interactive Visualization
+- Chemical Analysis
+- Desktop Application
+- User-friendly Interface
+
+**Built with**
+
+`JavaScript` • `Three.js`
+
+`HTML` • `CSS`
 
 <br>
 
-**Tech**
-
-`JavaScript`
-
-`Three.js`
-
-`HTML`
-
-`CSS`
-
-<br>
-
-<a href="YOUR_CHEMICAL_GITHUB_LINK">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<a href="YOUR_CHEMICAL_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -199,24 +207,25 @@ Desktop application for visualizing and analyzing chemical equipment using an in
 
 ### 🌍 Earthquake Prediction System
 
-Deep learning model for predicting earthquake occurrence using historical seismic datasets.
+Deep learning model trained on historical seismic data for earthquake prediction.
+
+**✨ Highlights**
+
+- Deep Learning
+- Seismic Dataset
+- Model Evaluation
+- REST API Ready
+
+**Built with**
+
+`Python` • `TensorFlow`
+
+`Scikit-Learn` • `Pandas`
 
 <br>
 
-**Tech**
-
-`Python`
-
-`TensorFlow`
-
-`Pandas`
-
-`Scikit-Learn`
-
-<br>
-
-<a href="YOUR_EARTHQUAKE_GITHUB_LINK">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<a href="YOUR_EARTHQUAKE_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -226,20 +235,19 @@ Deep learning model for predicting earthquake occurrence using historical seismi
 </table>
 
 </div>
-
 ---
 
 # 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=paramjyot2004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=paramjyot2004&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 <img height="165em" src="https://streak-stats.demolab.com?user=paramjyot2004&theme=tokyonight&hide_border=true"/>
 
 <br><br>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paramjyot2004&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=paramjyot2004&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -266,12 +274,9 @@ Deep learning model for predicting earthquake occurrence using historical seismi
 </a>
 
 <br><br>
-
 Strengthening problem-solving skills by consistently practicing Data Structures & Algorithms on LeetCode.
-
 </div>
 </div>
----
 
 # 🐍 Contribution Snake
 <div align="center">
