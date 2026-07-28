@@ -23,9 +23,14 @@
 
 <br/>
 
-<!-- Typing animation — name only, no titles -->
+<!--
+  Typing animation — name only, no titles.
+  Single looping line (no semicolons; apostrophe URL-encoded as %27),
+  since an unescaped apostrophe/semicolon is what breaks this widget
+  on GitHub's image proxy and makes it fail or freeze on one frame.
+-->
 <a href="https://github.com/paramjyot2004">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=32&duration=3000&pause=1200&color=6C7CE7&center=true&vCenter=true&width=550&height=60&lines=Hi+%F0%9F%91%8B;I'm+Paramjyot+Kaur" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=3000&pause=1000&color=6C7CE7&center=true&vCenter=true&width=600&height=60&lines=Hi+%F0%9F%91%8B+I%27m+Paramjyot+Kaur" alt="Typing SVG" />
 </a>
 
 <p align="center" style="font-size:16px; color:#8b949e;">
@@ -77,67 +82,37 @@
 
 ## 🧱 Tech Stack
 
-<div align="center">
-
-**Languages**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-
-<br/><br/>
-
-**Frontend**
-<br/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-
-<br/><br/>
-
-**Backend**
-<br/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=fastapi&logoColor=white"/>
-
-<br/><br/>
-
-**Database**
-<br/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
-
-<br/><br/>
-
-**AI & Data**
-<br/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-
-<br/><br/>
-
-**Cloud & Tools**
-<br/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/CI%2FCD-0052CC?style=flat-square&logo=githubactions&logoColor=white"/>
-
-</div>
+<table align="center" border="0" cellspacing="0" cellpadding="6">
+<tr>
+<td align="right"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=py,java,js,ts,mysql,html,css&theme=dark" height="40"/></td>
+</tr>
+<tr>
+<td align="right"><b>Frontend</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&theme=dark" height="40"/></td>
+</tr>
+<tr>
+<td align="right"><b>Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,flask,fastapi&theme=dark" height="40"/></td>
+</tr>
+<tr>
+<td align="right"><b>Database</b></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma&theme=dark" height="40"/></td>
+</tr>
+<tr>
+<td align="right"><b>AI & Data</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" height="40"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" height="26"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" height="26"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="26"/>
+</td>
+</tr>
+<tr>
+<td align="right"><b>Cloud & Tools</b></td>
+<td><img src="https://skillicons.dev/icons?i=aws,docker,git,githubactions&theme=dark" height="40"/></td>
+</tr>
+</table>
 
 ---
 
@@ -278,34 +253,6 @@ A predictive model estimating earthquake likelihood from seismic data.
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 -->
-
----
-
-## 🛠️ Currently Building
-
-- [x] Strengthening core Data Structures & Algorithms
-- [x] Building full-stack projects with real-world use cases
-- [ ] Exploring cloud deployment & CI/CD pipelines
-- [ ] Contributing to open-source repositories
-- [ ] Polishing personal portfolio & case studies
-
----
-
-## 🧗 Developer Journey
-
-<div align="center">
-
-```
-Started Programming
-        ↓
-Built Real Projects
-        ↓
-Contributed to Open Source
-        ↓
-Building Better Software Every Day
-```
-
-</div>
 
 ---
 
