@@ -195,13 +195,13 @@ Deep learning model trained on historical seismic data for earthquake prediction
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=paramjyot2004&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="165em" src="./profile/stats.svg" alt="Paramjyot's GitHub Stats"/>
 
-<img height="165em" src="https://streak-stats.demolab.com?user=paramjyot2004&theme=tokyonight&hide_border=true"/>
+<img height="165em" src="https://streak-stats.demolab.com?user=paramjyot2004&theme=tokyonight&hide_border=true" alt="Paramjyot's GitHub Streak"/>
 
 <br><br>
 
-<img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=paramjyot2004&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165em" src="./profile/top-langs.svg" alt="Paramjyot's Top Languages"/>
 
 </div>
 
