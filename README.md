@@ -101,27 +101,36 @@ Modern platform inspired by **Collegedunia** and **Careers360** for discovering,
 
 <td width="50%" valign="top">
 
-### 🌿 Vibrant Workshop Hub
 
-Interactive platform for discovering and managing educational workshops.
+### 🏢 Society Maintenance Platform
+
+Full-stack residential society management platform for residents and administrators to manage complaints, notices, dues, staff assignments, and maintenance operations.
 
 **✨ Highlights**
 
-- Role-based Access
-- Workshop Scheduling
-- Instructor Dashboard
-- Student Registration
+- Resident & Admin Authentication
+- Complaint Management & Tracking
+- Staff Assignment & Resolution
+- Notices & Dues Management
+- PostgreSQL Database Integration
+- Responsive Admin Dashboard
 
 **Built with**
 
-`React` • `Express.js`
+`React` • `TypeScript` • `TailwindCSS`
 
-`PostgreSQL`
+`Node.js` • `Express.js` • `Prisma`
+
+`PostgreSQL` • `Vercel` • `Render`
 
 <br>
 
-<a href="YOUR_WORKSHOP_REPO">
+<a href="https://github.com/paramjyot2004/society-maintenance-platform">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://society-maintenance-platform.onrender.com" target="_blank">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=render&logoColor=white"/>
 </a>
 
 </td>
