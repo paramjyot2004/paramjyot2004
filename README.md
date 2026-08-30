@@ -89,7 +89,7 @@ Modern platform inspired by **Collegedunia** and **Careers360** for discovering,
 
 <br>
 
-<a href="YOUR_COLLEGE_REPO">
+<a href="https://github.com/paramjyot2004/college-discovery-platform">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -151,7 +151,7 @@ Desktop application for visualizing and analyzing laboratory equipment through a
 
 <br>
 
-<a href="YOUR_CHEMICAL_REPO">
+<a href="https://github.com/paramjyot2004/chemical-equipment-visualizer">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -178,7 +178,7 @@ Deep learning model trained on historical seismic data for earthquake prediction
 
 <br>
 
-<a href="YOUR_EARTHQUAKE_REPO">
+<a href="https://github.com/paramjyot2004/Earthquake-Prediction-Model">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
